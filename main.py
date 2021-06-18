@@ -25,6 +25,7 @@ def send_telegram() -> None:
 def main():
     tw1_available = False
     sleep_timer = 5
+
     while True:
         print(f'{datetime.now().strftime("%d/%m/%Y %H:%M:%S")}: Checking whether date is available... ', end='')
         if tw1_available == False:
